@@ -57,15 +57,13 @@
   color: #333;
 }
 
-.bg-primary a,.btn-primary a,
-.bg-secondary a,.btn-secondary a,
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a,
+.btn-secondary a,
 .bg-dark a,
-.btn-dark a,
-.bg-light a,
-.btn-light a{
-
-  color : #fff;
-  
+.btn-dark a {
+  color: #fff;
 }
 
 
@@ -93,6 +91,20 @@
 
 .text-center {
   text-align: center;
+}
+
+/* Alert */
+.alert{
+
+  background-color: var(--light-color);
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 15px 0;
+
+}
+
+.alert i {
+  margin-right: 10px;
 }
 
 .flex {
